@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Hamburger from "./Hamburger";
-import "./NavBarStylesheet.css";
-import logo from "../../assets/Images/logo/logo.png";
+import './NavBarStylesheet.css';
+import {logo} from '../../assets/Images/logo/logo.png';
 
 
 const Navbar = () => {

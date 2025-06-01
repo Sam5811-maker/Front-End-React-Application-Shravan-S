@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Button from "../Shared/Button";
-import "./ContactStylingSheet.css";
+import {Button} from '../Shared/Button';
+import './ContactStylingSheet.css';
 
 const Contact = () => {
     const [formData, setFormData] = useState({

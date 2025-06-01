@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Button from '../Shared/Button';
+import {Button} from '../Shared/Button';
 
     // State variables for booking details
 const Booking = () => {
