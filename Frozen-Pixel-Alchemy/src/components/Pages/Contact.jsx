@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {Button} from '../Shared/Button';
+import Button from '../Shared/Button';
 import './ContactStylingSheet.css';
 
 const Contact = () => {

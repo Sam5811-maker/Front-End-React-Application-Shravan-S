@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Hamburger from "./Hamburger";
 import './NavBarStylesheet.css';
-import {logo} from '../../assets/Images/logo/logo.png';
+import logo from '../../assets/Images/logo/logo.png';
+
 
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
                <div
             //  for Logo Container with Home Link
                     className="logo-container">
-                        <img src={logo} className="App-logo" alt="logo" />
+                        <img src={logo} alt="Logo" />
                         <NavLink to="/" className="home">Home</NavLink>
                 </div>
                 {/* to display hamburger menu */}

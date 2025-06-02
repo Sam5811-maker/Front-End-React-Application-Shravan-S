@@ -1,6 +1,6 @@
 
 import { useNavigate } from "react-router-dom";
-import {Button} from "../Shared/Button"; // import button component from shared comp
+import Button from '../Shared/Button';
 import './AboutStylingSheet.css';
 
     
